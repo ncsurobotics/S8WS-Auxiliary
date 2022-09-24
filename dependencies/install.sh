@@ -40,3 +40,8 @@ fi
 if ! which qemu-user-static; then
     echo "Missing xz"
 fi
+
+# make
+if ! which make; then
+	echo "Missing make"
+fi

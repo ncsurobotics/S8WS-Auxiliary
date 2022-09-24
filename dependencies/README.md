@@ -5,6 +5,7 @@
 - util-linux
 - coreutils
 - xz
+- make
 
 ## Required by Script:
 - sh

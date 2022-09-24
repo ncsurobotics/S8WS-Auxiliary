@@ -6,6 +6,7 @@ packages=('sh'
          'python3'
          'util-linux'
          'coreutils'
-         'xz')
+         'xz'
+         'make')
 sudo pacman -Syu
 sudo pacman -S ${packages[@]}
