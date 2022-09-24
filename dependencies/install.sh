@@ -17,26 +17,26 @@ install_dir=$( dirname $BASH_SOURCE )/.installed
 mkdir -p $install_dir
 
 # qemu-user-static
-if ! which qemu-user-static; do
+if ! which qemu-user-static; then
     echo "Missing qemu-user-static"
-done
+fi
 
 # python3
-if ! which python3; do
+if ! which python3; then
     echo "Missing python3"
-done
+fi
 
 # util-linux
-if ! which util-linux; do
+if ! which util-linux; then
     echo "Missing util-linux"
-done
+fi
 
 # coreutils
-if ! which mount; do
+if ! which mount; then
     echo "Missing GNU coreutils"
-done
+fi
 
 # xz
-if ! which qemu-user-static; do
+if ! which qemu-user-static; then
     echo "Missing xz"
-done
+fi
